@@ -30,7 +30,7 @@ export default function Home() {
         <div className="loader-ring"></div>
         <div className="loader-ring2"></div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="img/LOGO.png" alt="AMPO Realty" className="loader-logo" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+        <img src="/img/LOGO.png" alt="AMPO Realty" className="loader-logo" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
         <div className="loader-text">
           <span>A</span><span>M</span><span>P</span><span>O</span>
           <span>&nbsp;</span>
@@ -60,7 +60,7 @@ export default function Home() {
       <nav id="navbar">
         <button className="nav-brand" onClick={c('showPage','home')}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="img/LOGO.png" alt="AMPO Realty" className="nav-logo" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+          <img src="/img/LOGO.png" alt="AMPO Realty" className="nav-logo" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
           <span className="nav-name">AMPO <span>REALTY</span></span>
         </button>
         <div className="nav-links" id="navLinks">
@@ -105,7 +105,7 @@ export default function Home() {
         {/* HERO */}
         <section id="hero">
           <video autoPlay muted loop playsInline id="hero-video">
-            <source src="img/new-bg.mp4" type="video/mp4" />
+            <source src="/img/new-bg.mp4" type="video/mp4" />
           </video>
           <div className="hero-overlay"></div>
           <div className="hero-grain"></div>
@@ -294,21 +294,21 @@ export default function Home() {
             <div className="agent-card">
               <div className="agent-img-wrap">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="img/Kevin.jpg" alt="Mark Kevin Lana" onError={(e) => { (e.target as HTMLImageElement).src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80' }} />
+                <img src="/img/Kevin.jpg" alt="Mark Kevin Lana" onError={(e) => { (e.target as HTMLImageElement).src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80' }} />
               </div>
               <div className="agent-body"><div className="agent-name">Mark Kevin Lana</div><div className="agent-role">IT Specialist</div><div className="agent-exp">10 years experience</div></div>
             </div>
             <div className="agent-card">
               <div className="agent-img-wrap">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="img/Luvydubs.png" alt="Antoneth Rosales" onError={(e) => { (e.target as HTMLImageElement).src='https://images.unsplash.com/photo-1494790108755-2616b612b80c?w=300&q=80' }} />
+                <img src="/img/Luvydubs.png" alt="Antoneth Rosales" onError={(e) => { (e.target as HTMLImageElement).src='https://images.unsplash.com/photo-1494790108755-2616b612b80c?w=300&q=80' }} />
               </div>
               <div className="agent-body"><div className="agent-name">Antoneth Rosales</div><div className="agent-role">Property Consultant</div><div className="agent-exp">7 years experience</div></div>
             </div>
             <div className="agent-card">
               <div className="agent-img-wrap">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="img/Ampo.png" alt="Ma. Eleonor Paubsanon" onError={(e) => { (e.target as HTMLImageElement).src='https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=300&q=80' }} />
+                <img src="/img/Ampo.png" alt="Ma. Eleonor Paubsanon" onError={(e) => { (e.target as HTMLImageElement).src='https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=300&q=80' }} />
               </div>
               <div className="agent-body"><div className="agent-name">Ma. Eleonor Paubsanon</div><div className="agent-role">Owner / Founder</div><div className="agent-exp">15 years experience</div></div>
             </div>
@@ -350,7 +350,7 @@ export default function Home() {
           <div className="login-box">
             <div style={{textAlign:'center',marginBottom:'28px'}}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="img/LOGO.png" alt="AMPO" style={{width:'60px',height:'60px',objectFit:'contain',marginBottom:'14px'}} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+              <img src="/img/LOGO.png" alt="AMPO" style={{width:'60px',height:'60px',objectFit:'contain',marginBottom:'14px'}} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
               <h2 style={{fontFamily:'var(--font-head)',fontWeight:800,fontSize:'1.5rem',color:'var(--text)',marginBottom:'6px'}}>Agent Portal</h2>
               <p style={{color:'var(--text-muted)',fontSize:'14px'}}>AMPO Realty — Staff Access</p>
             </div>
@@ -419,7 +419,7 @@ export default function Home() {
             <div>
               <div className="footer-brand" onClick={c('showPage','home')} style={{cursor:'pointer'}}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="img/LOGO.png" alt="AMPO" style={{width:'36px',height:'36px',objectFit:'contain',borderRadius:'8px'}} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+                <img src="/img/LOGO.png" alt="AMPO" style={{width:'36px',height:'36px',objectFit:'contain',borderRadius:'8px'}} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
                 <span className="footer-brand-name">AMPO <span>Realty</span></span>
               </div>
               <p className="footer-desc">Your trusted real estate partner in Cebu and beyond. We help you find the perfect property with expertise and care.</p>
@@ -618,7 +618,7 @@ export default function Home() {
           <button className="modal-x" onClick={c('closeAuthModal')} style={{top:'14px',right:'14px'}}>✕</button>
           <div className="auth-logo-bar">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="img/LOGO.png" alt="AMPO" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+            <img src="/img/LOGO.png" alt="AMPO" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
             <h2>Welcome to AMPO Realty</h2>
             <p id="authModalSub">Sign in to save favorites and more</p>
           </div>
