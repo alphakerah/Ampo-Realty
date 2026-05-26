@@ -44,3 +44,5 @@ A premium luxury real estate platform built with Next.js, Tailwind CSS, Framer M
 - build agent portal, comparison dashboards, and real-time Socket.io notifications
 - integrate Cloudinary / AWS S3 for image storage
 - deploy frontend to Vercel and backend to Railway/Supabase
+
+Redeploy trigger: 2026-05-26T00:00:00Z
